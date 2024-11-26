@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathaniel Tupaz Portfolio</title>
+    <link rel="stylesheet" href="../docs/CSS/styles.css"> 
+</head>
+<body>
+    <nav>
+        <div>Finntography</div>
+        <div>
+            <button onclick="scrollToSection('home')">Home</button>
+            <button onclick="scrollToSection('about')">About Me</button>
+            <button onclick="scrollToSection('gallery')">Photos</button>
+        </div>
+    </nav>
+
+    <section id="home" class="header">
+        <img class="profile-img" src="../docs/Images/image2.jpg" alt="Profile Photo">
+        <div>
+            <h1>My Portfolio</h1>
+            <button onclick="explore()">Explore Now</button>
+            <button onclick="playVideo()">Play Video</button>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is Nathaniel Tupaz, and I'm a 21-year-old BSIT student with a passion for photography.
+                I began my journey with mobile photography, capturing moments with just my phone. As my skills and interest grew,
+                I transitioned into DSLR photography to take my work to the next level.
+            </p>
+            <p>
+                Over the years, I've gained experience in various types of shoots, including condo unit photography, car photography,
+                product photography, as well as street and portrait photography. My goal is to continue honing my craft, exploring
+                new techniques, and capturing stunning images that tell a story.
+            </p>
+        </div>
+        <img class="about-img" src="../docs/Images/image1.jpg" alt="About Me Image">
+    </section>
+
+    <section id="gallery" class="section gallery">
+        <img src="../docs/Images/photo1.jpg" alt="Portrait 1">
+        <img src="../docs/Images/photo2.JPG" alt="Portrait 2">
+        <img src="../docs/Images/photo4.JPG" alt="Portrait 4">
+        <img src="../docs/Images/photo3.jpg" alt="Portrait 3">
+    </section>
+
+    <footer id="contact">
+        <p>Contact Me: Finntography</p>
+    </footer>
+
+    <script src="../docs/JS/script.js"></script> 
+</body>
+</html>
